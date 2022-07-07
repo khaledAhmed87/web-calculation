@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CorssProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>My WebSite</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+  
+    </asp:ContentPlaceHolder>
+    <link href="css/mainstyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+           
+           
+
+              <div id="cover">
+            Weclome to my page
+                  
+                  </br>
+                  <a href="contact.aspx">Contact Me</a>
+                  <a href="home.aspx">Home</a>
+                  <a href="Welcome.aspx">Go calc</a>
+                  
+                   
+
+        </div>
+
+           
+    </div>
+
+    </form>
+
+
+
+            
+
+
+
+</body>
+</html>
